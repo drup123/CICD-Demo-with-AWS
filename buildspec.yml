@@ -8,8 +8,8 @@ phases:
 
   build:
     commands:
-      - echo Build started
-      - python app.py || echo "No app file"
+      - echo Running unit tests...
+      - python -m unittest   # ✅ THIS is important
 
   post_build:
     commands:
