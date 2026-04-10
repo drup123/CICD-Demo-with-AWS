@@ -1,2 +1,2 @@
-print("Hey, I am Drup...")
-print("Pipeline Created Successfully")
+def add(a, b):
+    return a + b
